@@ -1,8 +1,6 @@
-\# Kubernetes Scalable Web Application Deployment (Local Multi-Cloud Simulation)
-
-
-
-\## 📌 Project Overview
+ Kubernetes Scalable Web Application Deployment (Local Multi-Cloud Simulation)
+ 
+ Project Overview
 
 
 
@@ -18,41 +16,19 @@ The objective was to simulate real-world cloud-native deployment practices such 
 
 
 
-\## 🛠️ Technologies Used
+ Technologies Used
 
 
 
-\* Kubernetes (Minikube)
+ Kubernetes (Minikube)
 
-\* Docker
+Docker
 
-\* kubectl CLI
+kubectl CLI
 
-\* Nginx Web Server
+Nginx Web Server
 
-\* YAML (Infrastructure-as-Code)
-
-
-
----
-
-
-
-\## 🚀 Deployment Steps
-
-
-
-1\. Deployed an Nginx containerized web application using Kubernetes.
-
-2\. Exposed the application externally using a NodePort service.
-
-3\. Scaled application replicas from 1 to 3 to simulate horizontal scaling.
-
-4\. Simulated application failure by deleting a running pod.
-
-5\. Observed Kubernetes self-healing by automatic pod recreation.
-
-6\. Exported deployment and service configuration files as YAML for version-controlled Infrastructure-as-Code.
+YAML (Infrastructure-as-Code)
 
 
 
@@ -60,23 +36,21 @@ The objective was to simulate real-world cloud-native deployment practices such 
 
 
 
-\## 📈 Key Features Demonstrated
+ Deployment Steps
 
 
 
-\* Containerized Application Deployment
+1. Deployed an Nginx containerized web application using Kubernetes.
 
-\* Horizontal Pod Scaling
+2. Exposed the application externally using a NodePort service.
 
-\* ReplicaSet Management
+3. Scaled application replicas from 1 to 3 to simulate horizontal scaling.
 
-\* Self-Healing Infrastructure
+4. Simulated application failure by deleting a running pod.
 
-\* Fault Tolerance Simulation
+5. Observed Kubernetes self-healing by automatic pod recreation.
 
-\* Service Exposure using NodePort
-
-\* Infrastructure-as-Code (IaC)
+6. Exported deployment and service configuration files as YAML for version-controlled Infrastructure-as-Code.
 
 
 
@@ -84,17 +58,41 @@ The objective was to simulate real-world cloud-native deployment practices such 
 
 
 
-\## 📂 Project Structure
+Key Features Demonstrated
+
+
+
+ Containerized Application Deployment
+
+Horizontal Pod Scaling
+
+ ReplicaSet Management
+
+Self-Healing Infrastructure
+
+Fault Tolerance Simulation
+
+Service Exposure using NodePort
+
+Infrastructure-as-Code (IaC)
+
+
+
+---
+
+
+
+ Project Structure
 
 
 
 kubernetes-scalable-webapp-project/
 
-┣ hello-app-deployment.yaml
+ hello-app-deployment.yaml
 
-┣ hello-app-service.yaml
+ hello-app-service.yaml
 
-┗ README.md
+ README.md
 
 
 
@@ -102,7 +100,8 @@ kubernetes-scalable-webapp-project/
 
 
 
-\## 🎯 Outcome
+
+Outcome
 
 
 
